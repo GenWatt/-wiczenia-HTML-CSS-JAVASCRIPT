@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <title>Cwiczenia JS</title>
+  <meta charset="utf-8" />
+  <meta name="keywords" content="javascript,JS,GSAP,HTML,CSS,Exercises,ćwiczenia,ES6" />
+  <meta name="description" content="Ćwiczenia z użyciem JavaScript(ES6), CSS i HTML" />
+  <link rel="stylesheet" href="zadanka.css" />
+</head>
+
+<body>
+  <div id="scrollBar"></div>
+  <article>
+    <header>
+      <h1 class="main-header-1">Zadania</h1>
+      <h1 class="main-header-2">z</h1>
+      <h1 class="main-header-3">JavaScript</h1>
+    </header>
+    <p class="link">
+      Link do zadań, które zostały wykonane na tej stronie. Zapraszam do
+      sprawdzenia rozwiązań i podzielenia się o opinią. Chętnie poczytam jak
+      można ulepszyć kod:)
+    </p>
+    <h4 class="recomendation">Zadania od 1-3:</h4>
+    <span class="underline"></span>
+    <a href="https://www.wakeupandcode.pl/sprawdz-sie-porcja-zadan-z-javascriptu/" target="blank"
+      title="Link do oryginalnego źródła!">https://www.wakeupandcode.pl/sprawdz-sie-porcja-zadan-z-javascriptu/</a>
+    <h4 class="recomendation">Zadania od 4-6:</h4>
+    <span class="underline"></span>
+    <a href="https://www.wakeupandcode.pl/sprawdz-sie-kilka-prostych-zadan-z-javascriptu" target="blank"
+      title="Link do oryginalnego źródła!">
+      https://www.wakeupandcode.pl/sprawdz-sie-kilka-prostych-zadan-z-javascriptu
+    </a>
+  </article>
+  <div class="nav">
+    <nav class="nav-pos">
+      <h1 class="nav-header">Nawigacja:</h1>
+      <ul class="links">
+        <li class="link-to-exercise" id="0">
+          <span>Z</span>
+          <span>a</span>
+          <span>d</span>
+          <span>a</span>
+          <span>n</span>
+          <span>i</span>
+          <span>e</span>
+          <span>1</span>
+          <span class="border"> </span>
+        </li>
+        <li class="link-to-exercise" id="1">
+          <span>Z</span>
+          <span>a</span>
+          <span>d</span>
+          <span>a</span>
+          <span>n</span>
+          <span>i</span>
+          <span>e</span>
+          <span>2</span>
+          <span class="border"></span>
+        </li>
+        <li class="link-to-exercise" id="2">
+          <span>Z</span>
+          <span>a</span>
+          <span>d</span>
+          <span>a</span>
+          <span>n</span>
+          <span>i</span>
+          <span>e</span>
+          <span>3</span>
+          <span class="border"> </span>
+        </li>
+        <li class="link-to-exercise" id="3">
+          <span>Z</span>
+          <span>a</span>
+          <span>d</span>
+          <span>a</span>
+          <span>n</span>
+          <span>i</span>
+          <span>e</span>
+          <span>4</span>
+          <span class="border"> </span>
+        </li>
+        <li class="link-to-exercise" id="4">
+          <span>Z</span>
+          <span>a</span>
+          <span>d</span>
+          <span>a</span>
+          <span>n</span>
+          <span>i</span>
+          <span>e</span>
+          <span>5</span>
+          <span class="border"> </span>
+        </li>
+        <li class="link-to-exercise" id="5">
+          <span>Z</span>
+          <span>a</span>
+          <span>d</span>
+          <span>a</span>
+          <span>n</span>
+          <span>i</span>
+          <span>e</span>
+          <span>6</span>
+          <span class="border"> </span>
+        </li>
+        <li class="link-to-exercise" id="6">
+          <span>Z</span>
+          <span>a</span>
+          <span>d</span>
+          <span>a</span>
+          <span>n</span>
+          <span>i</span>
+          <span>e</span>
+          <span>7</span>
+          <span class="border"></span>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <main>
+    <section class="set-exercise-1" data-index="0">
+      <h3>Zadanie 1</h3>
+      <p class="exercise">
+        Masz daną tablicę: const numbers = [2, 5, 7, 10, 34, 16, 879, 1].
+        Napisz funkcję, która wypisze w konsoli nową tablicę zawierającą tylko
+        parzyste liczby z tablicy numbers.
+      </p>
+      <div class="exercise-1">
+        <input type="text" id="add-to-array" name="add-to-array" class="input-style" placeholder="Wpisz liczbę" />
+        <button class="add-name-btn" id="add">Add</button>
+        <p id="hint" style="position: absolute; top:30%;"></p>
+      </div>
+      <div class="result"></div>
+    </section>
+    <section class="set-exercise-1" data-index="1">
+      <h3>Zadanie 2</h3>
+      <p class="exercise">
+        Napisz funkcję sayHello przyjmującą jeden argument, który jest
+        obiektem zawierającym dane osoby. Jeśli przekazany obiekt ma własność
+        name, Twoja funkcja powinna wypisać w konsoli “Hello, name!”. Jeśli
+        nie, funkcja ma wypisać tylko “Hello!”. Przykładowy obiekt do
+        wywołania funkcji to const person = { name: "Jill", age: 25, hobby:
+        "sports" }.
+      </p>
+      <div class="inputs-to-exercises">
+        <label for="name"></label>
+        <input type="text" id="name" name="name" placeholder="Wpisz imię" class="input-style" />
+        <button class="add-name-btn" id="add-name-btn">Add Name</button>
+      </div>
+      <div class="result"></div>
+    </section>
+    <section class="set-exercise-1" data-index="2">
+      <h3>Zadanie 3</h3>
+      <p class="exercise">
+        Napisz prostą maszynę losującą, czyli funkcję, która przyjmuje jako
+        argument tablicę zawierającą listę osób. Twoja funkcja powinna zwracać
+        losową osobę z tej tablicy. Przykładowa tablica do wywołania funkcji:
+        const students = ["John", "Bill", "Emma", "Stella", "Rob"].
+      </p>
+      <div class="result"></div>
+      <div class="answerWithMath">A teraz do odpowiedzi z matmy idzie:</div>
+    </section>
+    <section class="set-exercise-2" data-index="3">
+      <h3>Zadanie 4</h3>
+      <p class="exercise">
+        Napisz funkcję, która będzie prostą wersją gry “Kamień, papier,
+        nożyce”. Może to być wersja polska lub angielska. Funkcja jako
+        argumenty przyjmuje dwa stringi (“kamień”, “papier” lub “nożyce”), a
+        następnie w formie alertu podaje wynik (czyli np. wypisuje “Gracz nr 1
+        wygrał” – zakładamy, że gracz numer 1 to osoba, która podała pierwszy
+        string). Jeśli do funkcji zostanie podany nieodpowiedni argument, tj.
+        taki, który nie jest ani kamieniem, ani papierem, ani nożycami,
+        poinformuj o tym gracza wyświetlając alert z tekstem.
+      </p>
+      <div class="result">
+        <div class="game-board">
+          <div class="history-board">
+            <h3 class="history-header">Historia Gry:</h3>
+            <div class="history-game"></div>
+          </div>
+          <button class="add-name-btn" id="paper-stone-game-btn">
+            Losuj
+          </button>
+          <button id="reset-points">
+            Resetuj Punkty
+          </button>
+          <div class="player1-result player-board"></div>
+          <div class="player2-result player-board"></div>
+          <div class="hint">Kliknij "Losuj"</div>
+        </div>
+      </div>
+    </section>
+    <section class="set-exercise-2" data-index="4">
+      <h3>Zadanie 5</h3>
+      <p class="exercise">
+        Napisz funkcję, która jako argumenty przyjmuje ciąg liczb. Liczba
+        argumentów może być dowolna, ale nie mniejsza niż 2 (czyli musimy do
+        funkcji podać minimum dwie liczby). Funkcja ma na celu zwrócić liczbę,
+        która jest największa z podanego jako argumenty zbioru. Jeśli do
+        funkcji zostaną podane argumenty, które nie są liczbami, powinien się
+        wyświetlić odpowiedni komunikat informujący o tym, co należy podać do
+        funkcji (w formie alertu lub console.loga).
+      </p>
+      <div class="inputs-to-exercises">
+        <input type="number" name="number" id="number" class="input-style" placeholder="Wpisz Liczbę" />
+        <button class="add-number">
+          <span class="content-btn">Dodaj Liczbę</span>
+        </button>
+        <button class="the-highest-value-btn">
+          <span class="content-btn">Najwyższa wartość</span>
+        </button>
+      </div>
+      <div class="result"></div>
+    </section>
+    <section class="set-exercise-2" data-index="5">
+      <h3>Zadanie 6</h3>
+      <p class="exercise">
+        Napisz funkcję, która przyjmuje jako argument jakieś słowo. Ma ona
+        wypisać, ile samogłosek zawiera podane słowo. Jeśli do funkcji podano
+        argument, który nie jest typu tekstowego, należy wyświetlić odpowiedni
+        komunikat (w formie alertu lub console.loga).
+      </p>
+      <div class="inputs-to-exercises">
+        <div class="wraper">
+          <input type="text" name="vowel" id="vowel" required="required" autocomplete="off" />
+          <label for="vovel" class="vowel-label">Wpisz jakiś wyraz:</label>
+        </div>
+        <button id="vowels-btn">
+          <span class="frame-btn">Show count of vowels</span>
+          <span class="overlay"></span>
+        </button>
+      </div>
+      <div class="result"></div>
+    </section>
+    <section class="set-exercise-2" data-index="6">
+      <h3>Zadanie 7</h3>
+      <p class="exercise">
+        Napisz funkcję, która będzie obliczać miejsca zerowe funkcji liniowej.
+      </p>
+      <div class="inputs-to-exercises">
+        <div class="wraper">
+          <input type="number" name="function" id="function" required="required" autocomplete="off" class="input-style"
+            placeholder="Podaj parametr 'a'" />
+          <label for="function"></label>
+        </div>
+        <button class="add-name-btn" id="linear-function-btn" style="width: 150px;">
+          Pokaż miejsce zerowe
+        </button>
+      </div>
+      <div class="result"></div>
+      <div class="linear-function"></div>
+    </section>
+    <div class="scroll-up">
+      <i class="fas fa-less-than"></i>
+      <i class="fas fa-less-than"></i>
+      <i class="fas fa-less-than"></i>
+    </div>
+    <footer>
+      &copy; All rights reserved!
+    </footer>
+  </main>
+  <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.0.4/MotionPathPlugin.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+  <script src=" https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.js"></script>
+  <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/CSSRulePlugin3.min.js"></script>
+  <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollToPlugin3.min.js"></script>
+  <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/Draggable3.min.js"></script>
+  <script src="https://kit.fontawesome.com/61630affa7.js" crossorigin="anonymous"></script>
+  <script src="zadanka.js"></script>
+</body>
+
+</html>
