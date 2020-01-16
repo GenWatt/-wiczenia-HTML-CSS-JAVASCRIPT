@@ -981,3 +981,12 @@
           top: -5px;
         }
       }
+
+  @media (max-width:960px) {
+    html,
+    body,
+    main {
+      max-width: 100%;
+      overflow-x: hidden;
+    }
+  }
